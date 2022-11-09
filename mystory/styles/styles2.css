@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+.btn {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+.btn:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+  color: white;
+}
+/*text-center */
+.text-center {
+  text-align: center;
+}
+/*text-center */
+/* navbar*/
+.header {
+  display: flex;
+}
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: aliceblue;
+}
+.nav h2 a img {
+  width: 150px;
+}
+.nav h2 {
+  padding-left: 20px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.nav ul {
+  list-style-type: none;
+  display: flex;
+}
+.nav ul li {
+  padding: 20px;
+}
+.nav ul li:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+  border-radius: 10px;
+}
+/* navbar*/
+/*section 1*/
+#section-1 {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../assets/img/background-6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+#section-1 .btn {
+  color: aliceblue;
+  border: 1px solid aliceblue;
+}
+.about p {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+#section-1 .about h1 {
+  font-size: 90px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+/*section 1*/
+/*section profile*/
+#profile {
+  height: 1100px;
+  background-color: rgb(27, 27, 27);
+  color: aliceblue;
+}
+/* #profile img {
+  max-width: 300px;
+  position: center;
+} */
+/* #profile p {
+  max-width: 360px;
+  position: center;
+} */
+#profile .container img {
+  margin-top: -70px;
+}
+#profile .container p {
+  color: rgb(187, 184, 184);
+}
+#profile .container h2 {
+  line-height: 2em;
+  letter-spacing: 2px;
+}
+#profile .container .btn {
+  color: aliceblue;
+  border-radius: 0px;
+  border: 0px;
+  border-bottom: aliceblue solid 1px;
+  background-color: none;
+}
+#profile .container .btn:hover {
+  background: none;
+}
+#profile #boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+#profile #boxes .box {
+  max-width: 300px;
+}
+#profile #boxes .box i {
+  color: darkred;
+}
+/* section image */
+#image {
+  height: 950px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../assets/img/flip-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+}
+#image .container #boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#image #boxes .box {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  padding: 50px;
+}
+#image #boxes .box-bg-1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/img/flip-3-front.jpg);
+}
+#image #boxes .box-bg-2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/img/flip-1-front.jpg);
+}
+#image #boxes .box-bg-3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/img/flip-2-front.jpg);
+}
+/*section image*/
+/* section contact */
+#contact {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(19, 18, 18);
+  color: aliceblue;
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact form .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding-bottom: 20px;
+}
+#contact form .form-group label {
+  padding: 5px;
+}
+#contact form .form-group input,
+#contact form .form-group textarea {
+  border-radius: 5px;
+}
+#contact form .btn {
+  color: aliceblue;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+#contact form .btn:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+  color: white;
+}
+/* section video */
+
+#video {
+  background-color: rgb(66, 54, 54);
+  color: aliceblue;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+#video .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-bottom: 50px;
+}
+#video .container .video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  width: 600px;
+  height: 100%;
+}
+#video .frame {
+  border: 2px solid rgb(237, 228, 100);
+  border-radius: 30px;
+}
+#video .container .video-responsive {
+  padding-bottom: calc(315 / 560 * 100%);
+  position: relative;
+  width: 600px;
+}
+#video .container .video-responsive iframe {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 30px;
+}
+/*section video*/
+/* section footer*/
+#footer {
+  height: 500px;
+  background-color: rgb(27, 27, 27);
+  color: aliceblue;
+}
+#footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-bottom: 50px;
+}
+#footer span {
+  color: brown;
+  font-size: 20px;
+}
+#footer .container img {
+  border-radius: 100px;
+  border: #fff;
+  border: 2px solid;
+}
+#footer .container p {
+  color: rgb(187, 184, 184);
+}
+#footer .container h2 {
+  line-height: 2em;
+  letter-spacing: 2px;
+}
+#footer .container .footer-content {
+  padding-top: 20px;
+}
