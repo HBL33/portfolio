@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "muli-regular";
+  src: url(../assets/fonts/static/Muli-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "sequel-demo";
+  src: url(../assets/fonts/Sequel_Demo.ttf) format("truetype");
+}
+body {
+  font-family: "muli-regular";
+}
+p {
+  color: darkgray;
+  font-size: 16px;
+}
+h1 {
+  font-size: 48px;
+  color: #314d91;
+  font-family: "sequel-demo";
+}
+h2 {
+  font-size: 36px;
+  color: #000f33;
+  font-family: "sequel-demo";
+}
+h4 {
+  font-size: 28px;
+  color: #314d91;
+}
+h3,
+h5 {
+  color: #000f33;
+  font-size: 26px;
+  font-family: "sequel-demo";
+}
+a {
+  font-size: 12px;
+  color: #000f33;
+}
+.hb-bg-maria {
+  background: #314d91;
+}
+.hb-bg-saphire {
+  background: #000f33;
+}
+.btn-1 {
+  color: #000f33;
+}
+
+.margin-note {
+  width: 60%;
+  z-index: 999;
+  margin-left: auto;
+  margin-top: -100px;
+  margin-right: -60px;
+}
+@media screen and (min-width: 481px) {
+  .nav-logo-1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nav-logo-1 {
+    display: initial;
+  }
+  .nav-logo-2 {
+    display: none;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4,
+  h5 {
+    font-size: 16px;
+  }
+}
+footer {
+  height: 720px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 100%, url(../img/wave.svg)
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
