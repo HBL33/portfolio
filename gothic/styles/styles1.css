@@ -1,0 +1,99 @@
+body {
+  box-sizing: border-box;
+}
+#section-1 {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  background-image: url(../assets/img/slider/slide-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section-1 .container .row .btn {
+  color: #fff;
+  border-bottom: 1px solid;
+}
+
+#section-3 .container .row .btn a {
+  color: black;
+  text-decoration: none;
+}
+#section-3 .container .row .hcol {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+#section-3 .container .row .hcol i {
+  color: forestgreen;
+}
+/* section 3 */
+/* section 4 */
+#section-4 .container .row {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#section-5 .container .row {
+  height: 500px;
+}
+#section-5 .container-fluid .card-res-1 {
+  height: 600px;
+  background-image: url(../assets/img/gallery/1-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section-5 .container-fluid .card-res-2 {
+  height: 600px;
+  background-image: url(../assets/img/gallery/1-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section-5 .container-fluid .card-res-3 {
+  height: 600px;
+  background-image: url(../assets/img/gallery/1-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section-5 .container-fluid .card-res-4 {
+  height: 600px;
+  background-image: url(../assets/img/gallery/1-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contact-2 hr {
+  width: 50px;
+  height: 1px;
+  color: rgb(24, 95, 24);
+}
+#contact-2 .container {
+  margin-top: -100px;
+}
+#about-1 {
+  height: 1200px;
+  display: flex;
+  align-items: center;
+  background-image: url(../assets/img/about/large-about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about-4 {
+  height: 1200px;
+  display: flex;
+  align-items: center;
+  background-image: url(../assets/img/about/large-about-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#news-1 {
+  height: 1200px;
+  display: flex;
+  align-items: center;
+  background-image: url(../assets/img/news/blog/large-blog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
